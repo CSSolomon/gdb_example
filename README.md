@@ -10,6 +10,7 @@ trace the issue that appears effectively.
  The program should be built in such a way so as to show the mechanisms listed below. The
  listing is in no particular order as of writing this. For each item, the correspoding
  info command will be shown also
+
     - Breakpoints
         - Inserting breakpoints
         - Disabling breakpoints
@@ -41,6 +42,7 @@ trace the issue that appears effectively.
 In order to debug a program, it needs to be debugged with the appropriate flags. use of
 the source code, when available, can also help, as well as using gdbserver to debug a
 remote program. The following ancillary areas will therefore also be shown:
+
     - Compilation for debugging vs non debugging
     - gdbserver usage
     - Makefile options to build with debug symbols
@@ -49,6 +51,7 @@ remote program. The following ancillary areas will therefore also be shown:
 ## Characteristics of the program
 In order to allow displaying of the various characteristics, the program will need to make
 use of the following mechanisms:
+
     - Use of exec
     - Use of threads
     - Use of fork
@@ -58,6 +61,7 @@ use of the following mechanisms:
 
 ## Future improvements / additional areas
 In the future, the following areas may be expanded upon:
+
     - Remote debugging 
     - Attaching to already running processes
     - Non blocking calls
