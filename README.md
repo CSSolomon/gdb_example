@@ -41,6 +41,7 @@ trace the issue that appears effectively.
 In order to debug a program, it needs to be debugged with the appropriate flags. use of
 the source code, when available, can also help, as well as using gdbserver to debug a
 remote program. The following ancillary areas will therefore also be shown:
+    - Compilation for debugging vs non debugging
     - gdbserver usage
     - Makefile options to build with debug symbols
     - Using a source code directory
