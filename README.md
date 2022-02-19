@@ -66,5 +66,6 @@ In the future, the following areas may be expanded upon:
     - Attaching to already running processes
     - Non blocking calls
     - Stopping and debugging of a single thread
+    - Valgrind implementation to understand memory usage
 
 ##### Last updated on Mon 22 Apr 2019 
